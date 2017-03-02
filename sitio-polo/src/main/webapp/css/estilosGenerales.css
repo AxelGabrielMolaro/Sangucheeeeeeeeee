@@ -1,0 +1,26 @@
+.formularioLogin
+{
+  margin-top: 1%;
+}
+.logo
+{
+  padding-left: 2.1%;
+}
+.logotipo
+{
+  margin-bottom: 0.5%;
+  margin-top: 0.2%;
+}
+.submitAgrgarIngredienteASanguche
+{
+  margin-top: 1%;
+}
+.tablaArmarSanguche
+{
+   height: 400px;
+  overflow-y: scroll;
+}
+.ocultar
+{
+	display: none;
+}

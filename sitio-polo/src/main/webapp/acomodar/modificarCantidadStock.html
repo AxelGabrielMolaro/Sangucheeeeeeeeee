@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--css y js boostrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Axel Molaro</title>
+
+
+
+</head>
+<body>
+	<div class="container-fluid contenido">
+		
+
+
+		<div class="row fondo-modificar-cantidad-stock">
+				
+
+			<div class="row">
+			
+			<div class="col-md-offset-5 col-md-1 datos-stock"> 
+
+			INGREDIENTE nombre CANTIDAD  cantidad
+
+			</div>
+
+
+			</div>	
+			
+			<div class="row logo"> 
+				<div class="col-md-offset-2 col-md-3  ">
+					
+					<div class="formulario-agregar-cantidad-stock">
+						<h4 >Aumentar cantidad</h4>
+						<form method="post" action="agregarIngrediente.html">
+							
+							<label for="">Nombre</label>
+							<input type="text" class="inp" path="" placeholder="Nombre"> </input>
+
+							<label for="">Cantidad</label>
+							<input type="text"  class="inp" path="" placeholder="Cantidad"> </input>
+
+							<input type="submit"  class="btn btn-success botones-Stock col-md-10" value="Agregar"></input>
+						</form>
+					</div>
+
+				</div>
+				
+				<div class="col-md-offset-2 col-md-3  ">
+					
+					<div class="formulario-disminuir-cantidad-stock">
+						<h4 >Restar cantidad</h4>
+						<form method="post" action="agregarIngrediente.html">
+							
+							<label for="">Nombre</label>
+							<input type="text"  class="inp" path="" placeholder="Nombre"> </input>
+
+							<label for="">Cantidad</label>
+							<input type="text"  class="inp" path="" placeholder="Cantidad"> </input>
+
+							<input type="submit" class="btn btn-danger col-md-10 botones-Stock" value="Quitar"></input>
+						</form>
+					</div>
+
+					</div>
+				
+				</div>	
+				<div class="row">
+					<div class="col-md-offset-2">
+						
+						<a href="agregarIngrediente.html">
+							
+							<input type="button" class="btn btn-warning col-md-9" value="Ir al stock" ></input>
+
+
+						</a>
+					</div>
+
+				</div>
+
+			</div>	
+			
+
+		</div>
+
+	</div>	
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--css y js boostrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Axel Molaro</title>
+
+
+
+</head>
+<body>
+	<div class="container-fluid contenido">
+		
+		<div class="row fondo-agregar-ingrediente">
+				
+			<div class="row logo"> 
+				<div class="col-md-offset-2 col-md-3  ">
+					
+					<div class="formulario-agregar-ingrediente">
+						<h4 >Agregar ingrediente</h4>
+						<form method="post" action="agregarIngrediente.html">
+							
+							<label for="">Nombre</label>
+							<input type="text" class="inp" path="" placeholder="Nombre"> </input>
+
+							<label for="">Cantidad</label>
+							<input type="text" class="inp"  path="" placeholder="Cantidad"> </input>
+
+							<input type="submit" class="btn btn-success botones" value="Agregar ingrediente"></input>
+						</form>
+					</div>
+
+				</div>
+				<div class="col col-md-offset-1 col-md-4 tabla-stock">
+					
+					<table class="table">
+							<thead>Stock</thead>
+							
+							<tr>
+								<th>Nombre</th>
+								<th>Cantidad</th>
+								<th>Opcion 1</th>
+								<th>Opcion 2</th>
+							</tr>
+							<tr>
+								<td>Ingrediente1</td>
+								<td>21</td>
+								<td><a href="modificarCantidadStock.html">Cantidad</a></td>
+								<td><a href="agregarIngrediente.html">Eliminar</a></td>
+							
+
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a href="agregarIngrediente.html"><input type="button" class="btn btn-danger" value="Vaciar Stock"></input></a></td>
+								
+							
+
+							</tr>
+
+
+					</table>
+
+				</div>
+			</div>	
+			
+
+		</div>
+
+	</div>	
+</body>
+</html>

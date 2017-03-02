@@ -1,0 +1,261 @@
+*
+{
+	padding:0;
+	margin: 0;
+}
+.fondo
+{
+
+	background-image: url("https://images8.alphacoders.com/412/412102.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-height: 100px;
+	height: 100%;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 35%;
+	margin-top: 5%;
+	margin-left: 0;
+	margin-left:0; 
+	
+}
+.exepcion-Sanguche
+{
+	color:white;
+}
+.logo
+{
+
+}
+.frase
+{
+	margin-top: 0;
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+	font-size: 30pt;
+	padding: 20%;
+	max-width: 85%;
+	margin-bottom: 6%;
+
+}
+
+.botones
+{
+	margin-top: 1%;
+}
+
+.contenido
+{
+
+}
+.formulario-agregar-cantidad-stock .ocultar
+{
+	display: none;
+}
+.fondo-agregar-ingrediente
+{
+
+	background-image: url("https://images7.alphacoders.com/332/thumb-350-332051.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-height: 100px;
+	height: 100%;
+	width: 100%;
+	padding-top: 6%;
+	padding-bottom: 35%;
+	margin-top: 0%;
+	margin-left: 0;
+	margin-left:0; 
+	
+}
+
+.formulario-agregar-ingrediente
+{
+	margin-top: 0;
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+	margin-top:0;
+	padding: 12%;
+	padding-left: 14%;
+	max-width: 85%;
+	margin-bottom: 6%;
+
+}
+
+
+.formulario-agregar-ingrediente h4
+{
+	color: white;
+	font-weight: bold;
+
+	
+}
+
+.tabla-stock
+{
+	color: white;	
+	background: rgb(241, 155, 34);
+
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: scroll;
+	height: 400px;
+	margin-top: 0%;
+	border: 2px solid white;
+}
+
+.tabla-stock tr:hover 
+{
+	background-color: black;
+	
+}
+
+.tabla-stock tr a
+{
+	text-decoration:  none;
+	
+}
+.tabla-stock tr a:hover
+{
+	color: white;
+	font-weight: bold;
+	
+}
+
+.fondo-modificar-cantidad-stock
+{
+	background-image: url(https://buenavibra.es/wp-content/uploads/2015/10/harina.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	max-height: 100px;
+	height: 100%;
+	width: 100%;
+	padding-top: 16%;
+	padding-bottom: 35%;
+	margin-top: 6%;
+	margin-left: 0;
+	margin-left:0; 
+}
+
+.formulario-agregar-cantidad-stock
+{
+	margin-top: 0;
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+	
+	padding: 12%;
+	padding-left: 14%;
+	max-width: 85%;
+	margin-bottom: 6%;
+	padding-bottom: 19%;
+
+}
+.formulario-agregar-cantidad-stock h4
+{
+	color: white;
+	font-weight: bold;
+
+	
+}
+
+.formulario-disminuir-cantidad-stock
+{
+	margin-top: 0;
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+
+	padding: 12%;
+	padding-left: 14%;
+	padding-bottom: 19%;
+	max-width: 85%;
+	margin-bottom: 6%;
+
+}
+.formulario-disminuir-cantidad-stock h4
+{
+	color: white;
+	font-weight: bold;
+
+	
+}
+.botones-Stock
+{
+	margin-top: 2%;
+}
+.inp
+{
+	color: black;
+}
+
+.datos-stock
+{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -6%;
+	margin-bottom: 4%;
+	font-size: 12pt;
+}
+.formulario-agregar-ingrediente-sanguche
+{
+
+	margin-top: 0;
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+
+	padding: 12%;
+	padding-left: 14%;
+	padding-bottom: 19%;
+	max-width: 85%;
+	margin-bottom: 6%;
+
+}
+
+.menu-boton
+{
+	margin-top:10%;
+	margin-bottom: -5%;
+}
+
+.fondo-gracias
+{
+	background-image: url(http://lavidavamagazine.com/wp-content/uploads/2015/11/Gracias-en-muchos-idiomas.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-height: 100px;
+	height: 100%;
+	width: 100%;
+	padding-top: 16%;
+	padding-bottom: 35%;
+	margin-top: 6%;
+	margin-left: 0;
+	margin-left:0; 
+	
+}
+
+.tabla-sanguche
+{
+	color: white;	
+	background: rgb(34, 209, 100);
+
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: scroll;
+	height: 400px;
+	margin-top: -5%;
+	border: 2px solid white;
+}
+
+.tabla-sanguche tr:hover 
+{
+	background-color: black;
+	
+}
+.b{
+	margin-top:-10%;
+}
